@@ -1,0 +1,49 @@
+.navbar-nav .nav-item .nav-link.active {
+    color: #99513A;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #99513A;
+}
+
+
+
+
+.banner {
+    background-color: #fff9f7;
+}
+.bannertext h1{
+    margin-top: 280px;
+    font-size: 55px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+.bannerbtn {
+    background-color: #99513A;
+    width: 180px;
+    color: white; 
+    border: none; 
+    padding: 15px 15px; 
+    text-align: center; 
+    font-size: 16px; 
+    cursor: pointer;
+    box-shadow: rgba(60, 67, 80, 0.4) 0px 10px 20px 0px;
+}
+.bannerbtn:hover {
+    background-color: #61382b;
+    transition: 0.7s;
+}
+.bannerlink {
+    background-color: transparent;
+    width: 180px;
+    color: black; 
+    padding: 12px 12px; 
+    text-align: center; 
+    font-size: 16px; 
+    cursor: pointer;
+    border: 2px solid #99513A;
+}
+.bannerlink:hover {
+    color: white;
+    background-color: #99513A;
+    transition: 0.5s;
+}
