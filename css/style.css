@@ -47,3 +47,16 @@
     background-color: #99513A;
     transition: 0.5s;
 }
+.button-service {
+    padding: 6px 32px;
+}
+.button {
+    display: inline-block;
+    border: 1px solid #99513a;
+    font-weight: 500;
+    padding: 10px 24px;
+    background-color: #99513a;
+    color: #fff;
+    transition: all .4s ease;
+    text-decoration: none;
+}

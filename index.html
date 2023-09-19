@@ -1,188 +1,338 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--===================Bootstrap CSS File=======================-->
-    
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
 
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
 
     <!--===================Custom CSS File=======================-->
-    <link rel="stylesheet" href="/css/style.css">
-
-
+    <link rel="stylesheet" href="/css/style.css" />
 
     <!--==================Google Fonts==========================-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital@1&family=Fira+Sans:ital@1&family=Italianno&family=Josefin+
-    Sans&family=Merriweather+Sans&family=Pacifico&family=Roboto:wght@500&display=swap" rel="stylesheet">
-
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital@1&family=Fira+Sans:ital@1&family=Italianno&family=Josefin+
+    Sans&family=Merriweather+Sans&family=Pacifico&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Document</title>
-</head>
+  </head>
 
+  <body>
+    <!--===============================Header Starts Here=============================-->
 
+    <section>
+      <header class="header_main">
+        <nav class="navbar navbar-expand-lg bg-white shadow position-sticky">
+          <div class="container-fluid d-flex">
+            <a class="navbar-brand ps-5" href="#">
+              <img src="/images/logo.png.webp" alt="" />
+            </a>
 
-
-
-<body>
-
-  <!--===============================Header Starts Here=============================-->
-
-  <section>
-
-    <header class="header_main">
-
-      <nav class="navbar navbar-expand-lg bg-white shadow position-sticky">
-  
-        <div class="container-fluid d-flex">
-  
-          <a class="navbar-brand ps-5" href="#">
-            <img src="/images/logo.png.webp" alt="">
-          </a>
-  
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-  
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-  
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-5">
-  
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-  
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-  
-              <li class="nav-item">
-                <a class="nav-link" href="#">Service</a>
-              </li>
-  
-              <li class="nav-item dropdown">
-  
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Pages
-                </a>
-  
-                <ul class="dropdown-menu">
-  
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-  
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-  
-                  <li><hr class="dropdown-divider"></li>
-  
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-  
-                </ul>
-  
-              </li>
-  
-              <li class="nav-item">
-                <a class="nav-link" href="#">Team</a>
-              </li>
-  
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-  
-            </ul>
-  
-          </div>
-  
-        </div>
-  
-      </nav>
-  
-    </header>
-
-  </section>
-
-
-  <!--===============================Header Ends Here=============================-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!--===============================Banner Starts Here=============================-->
-  <div class="banner container-fluid text-center">
-
-    <div class="container">
-
-      <div class="row">
-
-        <div class="col-md-6">
-          <img class="img-fluid" src="/images/hero-banner.png.webp" alt="">
-        </div>
-  
-        <div class="bannertext col-md-6 pl-xl-4">
-  
-          <h1>We specialize in all phases of hair</h1>
-  
-          <p>
-            His itself may also face is creepeth fifth over dominion whose a Bring there created greater day multipl. 
-            His itself may also face is creep fifth over dominion whose no analyze market
-          </p>
-
-          <button type="button" class="bannerbtn btn-lg">Reservation</button>
-
-          <a class="ps-5" href=""> 
-            <button class="bannerlink">
-              Intro Video
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
             </button>
-          </a>
-          
-        </div>
-  
-      </div>
 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-5">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Service</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Pages
+                  </a>
+
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+
+                    <li><hr class="dropdown-divider" /></li>
+
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Team</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </section>
+
+    <!--===============================Header Ends Here=============================-->
+
+    <!--===============================Banner Starts Here=============================-->
+    <div class="banner container-fluid text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img class="img-fluid" src="/images/hero-banner.png.webp" alt="" />
+          </div>
+
+          <div class="bannertext col-md-6 pl-xl-4">
+            <h1>We specialize in all phases of hair</h1>
+
+            <p>
+              His itself may also face is creepeth fifth over dominion whose a
+              Bring there created greater day multipl. His itself may also face
+              is creep fifth over dominion whose no analyze market
+            </p>
+
+            <button type="button" class="bannerbtn btn-lg">Reservation</button>
+
+            <a class="ps-5" href="">
+              <button class="bannerlink">Intro Video</button>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
 
-  </div>
+    <!--===============================Banner Ends Here=============================-->
 
+    <br />
+    <br />
 
+    <!-- ==================================Patrick's section 1 begins================================ -->
 
+    <section class="section-margin--large">
+      <div class="container">
+        <div class="section-intro pb-70px">
+          <h4 class="section-intro__title">Our Services</h4>
+          <h2 class="section-intro__subtitle">
+            Our Strength Is Your <span class="d-block">Smart beauty</span>
+          </h2>
+        </div>
+        <div class="row gutters-48 card-service-wrapper">
+          <div class="col-lg-4">
+            <div class="card text-center card-service border-style">
+              <div class="card-service__icon"><i class="flaticon-cut"></i></div>
+              <img
+                src="./images/scissors.png"
+                alt=""
+                width="90px"
+                height="100px"
+                class="mx-auto"
+              />
+              <h3 class="card-service__title mt-5 mb-4">Stylish Hair Cut</h3>
+              <p>
+                Show wherein form yielding whala gathered wherein moved. Behold
+                may yod winged created that Won't theya are not second god give
+                best
+              </p>
+              <div>
+                <a class="button button-service mt-4 mb-4" href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-3">
+            <div class="card text-center card-service border-style">
+              <div class="card-service__icon">
+                <i class="flaticon-wellness"></i>
+              </div>
+              <img
+                src="./images/chair.png"
+                alt=""
+                width="90px"
+                height="100px"
+                class="mx-auto"
+              />
+              <h3 class="card-service__title mt-5 mb-4">
+                Cut &amp; Hair Style
+              </h3>
+              <p>
+                Show wherein form yielding whala gathered wherein moved. Behold
+                may yod winged created that Won't theya are not second god give
+                best
+              </p>
+              <div>
+                <a class="button button-service mt-4 mb-4" href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-5">
+            <div class="card text-center card-service border-style">
+              <div class="card-service__icon">
+                <i class="flaticon-shower"></i>
+              </div>
+              <img
+                src="./images/shower.png"
+                alt=""
+                width="90px"
+                height="100px"
+                class="mx-auto"
+              />
+              <h3 class="card-service__title mt-5 mb-4">
+                Color &amp; Hair Wash
+              </h3>
+              <p>
+                Show wherein form yielding whala gathered wherein moved. Behold
+                may yod winged created that Won't theya are not second god give
+                best
+              </p>
+              <div>
+                <a class="button button-service mt-4 mb-4" href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- ======================================Patrick's section 1 ends================================== -->
 
+    <section class="section-padding--large bg-soapstone">
+      <div class="container">
+        <div class="section-intro pb-70px">
+          <h4 class="section-intro__title">Our Team</h4>
+          <h2 class="section-intro__subtitle">
+            Experience Staff Change <span class="d-block">Your Look</span>
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <div class="card card-team">
+              <div class="card-team__img">
+                <img
+                  class="card-img rounded-0"
+                  src="./images/team1.png.webp"
+                  alt=""
+                />
+              </div>
+              <div class="card-team__position">
+                <div
+                  class="card-footer d-flex justify-content-between align-items-center"
+                >
+                  <div class="card-team__bio">
+                    <h4><a href="#">Daniel Mateno</a></h4>
+                    <p>Hair Specialist</p>
+                  </div>
+                  <ul class="card-team__social">
+                    <li>
+                      <a href="#"><i class="ti-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ti-twitter-alt"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ti-instagram"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <div class="card card-team">
+              <div class="card-team__img">
+                <img
+                  class="card-img rounded-0"
+                  src="./images/team2.png.webp"
+                  alt=""
+                />
+              </div>
+              <div class="card-team__position">
+                <div
+                  class="card-footer d-flex justify-content-between align-items-center"
+                >
+                  <div class="card-team__bio">
+                    <h4><a href="#">Julian Parsian</a></h4>
+                    <p>Hair Specialist</p>
+                  </div>
+                  <ul class="card-team__social">
+                    <li>
+                      <a href="#"><i class="ti-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ti-twitter-alt"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ti-instagram"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <div class="card card-team">
+              <div class="card-team__img">
+                <img
+                  class="card-img rounded-0"
+                  src="./images/team3.png"
+                  alt=""
+                />
+              </div>
+              <div class="card-team__position">
+                <div
+                  class="card-footer d-flex justify-content-between align-items-center"
+                >
+                  <div class="card-team__bio">
+                    <h4><a href="#">Julian Parsian</a></h4>
+                    <p>Hair Specialist</p>
+                  </div>
+                  <ul class="card-team__social">
+                    <li>
+                      <a href="#"><i class="ti-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ti-twitter-alt"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ti-instagram"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-
-
-
-
-  <!--===============================Banner Ends Here=============================-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <script src="/js/bootstrap.bundle.min.js"></script>
-</body>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
